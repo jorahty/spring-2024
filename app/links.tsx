@@ -17,7 +17,7 @@ export default function Links() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="secondary" size="icon" className="h-8 w-8">
+        <Button variant="secondary" size="icon" className="h-8 w-8 drop-shadow-sm">
           <Link className="h-[1rem] w-[1rem]" />
         </Button>
       </DropdownMenuTrigger>

@@ -3,9 +3,9 @@ import Links from './links';
 
 export default function Header() {
   return (
-    <div className="flex gap-3 items-stretch">
+    <div className="flex gap-4 items-stretch">
       <Image
-        className="drop-shadow rounded-xl"
+        className="drop-shadow-md rounded-xl"
         src="/pfp.png"
         width={110}
         height={110}
@@ -14,7 +14,7 @@ export default function Header() {
       />
       <div className="flex flex-col justify-evenly grow">
         <div className="flex justify-between items-center">
-          <p className="text-2xl font-semibold">James Tennant</p>
+          <h1 className="text-2xl font-bold">James Tennant</h1>
           <Links />
         </div>
         <p>B.S. Computer Engineerng</p>

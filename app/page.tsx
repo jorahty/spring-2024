@@ -7,7 +7,7 @@ export default function Home() {
       <Header />
 
       <div>
-        <p className="font-semibold">Hey there! I'm James, a developer based in the bay area.</p>
+        <h2 className="font-semibold">Hey there! I'm James, a developer based in the bay area.</h2>
         <p>
           I'm on a mission to develop eqip myself with tools to create useful producsta and services
           passioante create things solve important problems
@@ -15,6 +15,8 @@ export default function Home() {
       </div>
 
       <Contact />
+
+      <h2 className="text-2xl font-bold">Projects</h2>
     </main>
   );
 }
