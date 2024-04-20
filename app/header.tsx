@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Links } from './links';
+import Links from './links';
 
 export default function Header() {
   return (

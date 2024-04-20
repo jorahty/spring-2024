@@ -1,4 +1,5 @@
 import Header from './header';
+import Contact from './contact';
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
           passioante create things solve important problems
         </p>
       </div>
+
+      <Contact />
     </main>
   );
 }
