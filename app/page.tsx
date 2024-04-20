@@ -1,5 +1,6 @@
 import Header from './header';
 import Contact from './contact';
+import Projects from './projects';
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
 
       <Contact />
 
-      <h2 className="text-2xl font-bold">Projects</h2>
+      <Projects />
     </main>
   );
 }
