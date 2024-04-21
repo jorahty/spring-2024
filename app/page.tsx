@@ -5,7 +5,7 @@ import { Skills } from './skills';
 
 export default function Home() {
   return (
-    <main className="p-4 flex flex-col gap-4 max-w-lg mx-auto">
+    <main className="p-4 flex flex-col gap-4 max-w-4xl mx-auto min-w-[370px]">
       <Header />
 
       <div>

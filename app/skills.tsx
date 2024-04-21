@@ -28,10 +28,12 @@ export function Skills() {
             <TableRow key={skill.name}>
               <TableCell className="font-semibold">{skill.name}</TableCell>
               <TableCell>
-                {skill.evidence.map(([txt, url]) => (
+                {skill.evidence.map(([txt, url], index) => (
                   <span className="text-xs text-muted-foreground">
-                    <a href={url}>{txt}</a>
-                    {', '}
+                    <a className={`underline-offset-2 ${url && 'underline'}`} href={url}>
+                      {txt}
+                    </a>
+                    {index + 1 != skill.evidence.length && ', '}
                   </span>
                 ))}
               </TableCell>
