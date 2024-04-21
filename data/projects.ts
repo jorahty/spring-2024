@@ -27,4 +27,19 @@ export const projects = [
     details:
       'Made with Next.js, TypeScript, Postgres, WebSockets, third-party authentication, Google Calendar API',
   },
+  {
+    title: 'Hyneria',
+    description: 'Hyneria is a genus of large prehistoric predatory lobe-finned fish — Wikipedia',
+    details: '3D real-time multiplayer browser game made with HTML, CSS, Javascript and WebSockets',
+  },
+  {
+    title: 'Probability-Puzzle',
+    description: 'Small web app to demonstate basic probability concepts',
+    details: 'Made with React, TypeScript, custom CSS, Figma',
+  },
+  {
+    title: 'Rocket-Launches',
+    description: 'Wanted an easy way to view upcoming launches',
+    details: 'Made with React, TypeScript, external API',
+  },
 ];
