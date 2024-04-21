@@ -1,6 +1,7 @@
 import Header from './header';
 import Contact from './contact';
 import Projects from './projects';
+import { Skills } from './skills';
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       <Contact />
 
       <Projects />
+
+      <Skills />
     </main>
   );
 }
