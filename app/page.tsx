@@ -13,8 +13,13 @@ export default function Home() {
           Hey! I'm James, a software engineer based in the Bay Area.
         </h2>
         <p>
-          I'm on a mission to develop eqip myself with tools to create useful producsta and services
-          passioante create things solve important problems
+          Technology, to me, is akin to magic — it empowers us to solve impossible problems and
+          convert dreams to reality. I'm on a mission to equip myself with the knowledge and skills
+          needed to bring my creative visions to life, solve important real-world problems, and make
+          meaningful contributions to my community. I'm driven by relentless curiosity and desire to
+          understand our world, and by my passion for design, problem-solving, and building. I enjoy
+          combining art, science, and engineering to create excellent products and services that are
+          both functional and aesthetic.
         </p>
       </div>
 
