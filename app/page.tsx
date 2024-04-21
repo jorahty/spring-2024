@@ -10,7 +10,7 @@ export default function Home() {
 
       <div>
         <h2 className="font-semibold">
-          Hey! I'm James, a software engineer based in the bay area.
+          Hey! I'm James, a software engineer based in the Bay Area.
         </h2>
         <p>
           I'm on a mission to develop eqip myself with tools to create useful producsta and services
