@@ -27,7 +27,7 @@ export default function Toolmax() {
 
       <p>[Video here]</p>
 
-      <p>Toolmax is a long-standing project — I've been working on it since 2018</p>
+      <p>Toolmax is a long-standing project — I've been working on it since 2018.</p>
 
       <p>
         Toolmax is an <b>online multiplayer game</b> with 3 important properties:
@@ -54,7 +54,13 @@ export default function Toolmax() {
 
       <p>Toolmax has seen several iterations over the years.</p>
 
-      <p>The most recent public prototype is currently deployed at first.jorahty.com.</p>
+      <p>
+        The most recent public prototype is currently deployed at{' '}
+        <a className="text-[color:var(--link)]" href="http://first.jorahty.com">
+          first.jorahty.com
+        </a>
+        .
+      </p>
 
       <p>This recent prototype is exciting because it:</p>
 
@@ -94,6 +100,10 @@ export default function Toolmax() {
         I'm excited to leverage Flutter's powerful animation engine when it comes time to add
         animation.
       </p>
+
+      <p>Here's an older prototype that showcases animation and illustration:</p>
+
+      <p>[Video here]</p>
     </main>
   );
 }

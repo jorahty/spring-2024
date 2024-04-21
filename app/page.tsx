@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
 
       <div>
-        <h2 className="font-semibold">
+        <h2 className="font-semibold mb-1">
           Hey! I'm James, a software engineer based in the Bay Area.
         </h2>
         <p>
