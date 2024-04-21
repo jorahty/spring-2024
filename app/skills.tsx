@@ -7,11 +7,11 @@ import {
   TableRow,
 } from '@/components/ui/table';
 
-const data = [[]];
+import { skills } from '@/data/skills';
 
 export function Skills() {
   return (
-    <div>
+    <div id="skills">
       <h2 className="text-2xl font-bold mt-4 mb-1">Skills</h2>
 
       <Table>
@@ -22,12 +22,22 @@ export function Skills() {
             <TableHead className="text-right">Proficiency</TableHead>
           </TableRow>
         </TableHeader>
+
         <TableBody>
-          <TableRow>
-            <TableCell>INV001</TableCell>
-            <TableCell>Credit Card</TableCell>
-            <TableCell className="text-right">$250.00</TableCell>
-          </TableRow>
+          {skills.map((skill) => (
+            <TableRow key={skill.name}>
+              <TableCell className="font-semibold">{skill.name}</TableCell>
+              <TableCell>
+                {skill.evidence.map(([txt, url]) => (
+                  <span className="text-xs text-muted-foreground">
+                    <a href={url}>{txt}</a>
+                    {', '}
+                  </span>
+                ))}
+              </TableCell>
+              <TableCell className="text-right">{skill.proficiency}</TableCell>
+            </TableRow>
+          ))}
         </TableBody>
       </Table>
     </div>

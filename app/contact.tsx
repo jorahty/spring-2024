@@ -13,7 +13,7 @@ export default function Contact() {
     <div
       onClick={() => setClicked(true)}
       className="text-center text-blue-500 font-semibold hover:cursor-pointer">
-      Contact me
+      Contact me?
     </div>
   );
 }

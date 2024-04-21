@@ -9,7 +9,9 @@ export default function Home() {
       <Header />
 
       <div>
-        <h2 className="font-semibold">Hey there! I'm James, a developer based in the bay area.</h2>
+        <h2 className="font-semibold">
+          Hey! I'm James, a software engineer based in the bay area.
+        </h2>
         <p>
           I'm on a mission to develop eqip myself with tools to create useful producsta and services
           passioante create things solve important problems
