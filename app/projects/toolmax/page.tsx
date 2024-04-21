@@ -25,7 +25,7 @@ export default function Toolmax() {
         </p>
       </Card>
 
-      <p>[Video here]</p>
+      <video loop className="rounded-xl" autoPlay muted src="/first.jorahty.com.mov"></video>
 
       <p>Toolmax is a long-standing project — I've been working on it since 2018.</p>
 
@@ -103,7 +103,9 @@ export default function Toolmax() {
 
       <p>Here's an older prototype that showcases animation and illustration:</p>
 
-      <p>[Video here]</p>
+      <div className="flex justify-center">
+        <video loop className="rounded-xl max-w-xs" autoPlay muted src="/og_toolmax.mov"></video>
+      </div>
     </main>
   );
 }
