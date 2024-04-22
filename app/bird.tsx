@@ -1,6 +1,5 @@
 'use client';
 
-import { transform } from 'next/dist/build/swc';
 import { useEffect, useState } from 'react';
 
 export default function Bird() {
