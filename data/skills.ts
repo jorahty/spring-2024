@@ -162,7 +162,7 @@ export const skills = [
   {
     name: 'Godot',
     evidence: [],
-    proficiency: 'Familar',
+    proficiency: 'Familiar',
   },
   {
     name: 'Figma',
