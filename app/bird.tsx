@@ -44,7 +44,9 @@ export default function Bird() {
         className="absolute w-[100px] h-[100px] right-0 top-[-70px] z-10 hover:scale-110"
       />
       <div className="absolute w-[100px] h-[100px] right-0 top-[-70px]">
-        <div className={`transition-all duration-100 relative top-[${isHovered ? 40 : 10}px]`}>
+        <div
+          className={`transition-all duration-100 relative`}
+          style={{ top: isHovered ? 40 : 10 }}>
           <img src="/bird.png" />
           <img
             src="/eye.png"
@@ -58,7 +60,8 @@ export default function Bird() {
           />
           <img
             src="/beak.png"
-            className={`w-12 absolute top-[37px] left-[-10px] z-[${isHovered ? 0 : 1}]`}
+            className={`w-12 absolute top-[37px] left-[-10px]`}
+            style={{ zIndex: isHovered ? 0 : 1 }}
           />
         </div>
       </div>
