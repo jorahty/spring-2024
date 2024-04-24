@@ -9,7 +9,7 @@ export default function Projects() {
       <h2 className="text-2xl font-bold">Projects</h2>
 
       {projects.slice(0, 1).map(({ title, description, details }) => (
-        <a href={'/projects/' + title.toLowerCase()} className="relative">
+        <a href={'/projects/' + title.toLowerCase()} className="relative" key={title}>
           <Bird />
 
           <Card className="p-4 hover:bg-accent cursor-pointer relative">
@@ -21,7 +21,7 @@ export default function Projects() {
       ))}
 
       {projects.slice(1, 5).map(({ title, description, details }) => (
-        <a href={'/projects/' + title.toLowerCase()}>
+        <a href={'/projects/' + title.toLowerCase()} key={title}>
           <Card className="p-4 hover:bg-accent cursor-pointer">
             <h3 className="font-bold">{title}</h3>
             <p className="text-sm">{description}</p>

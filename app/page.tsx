@@ -10,16 +10,16 @@ export default function Home() {
 
       <div>
         <h2 className="font-semibold mb-1">
-          Hey! I'm James, a software engineer based in the Bay Area.
+          Hey! I&apos;m James, a software engineer based in the Bay Area.
         </h2>
         <p>
           Technology, to me, is akin to magic — it empowers us to solve impossible problems and
-          convert dreams to reality. I'm on a mission to equip myself with the knowledge and skills
-          needed to bring my creative visions to life, solve important real-world problems, and make
-          meaningful contributions to my community. I'm driven by relentless curiosity and desire to
-          understand our world, and by my passion for design, problem-solving, and building. I enjoy
-          combining art, science, and engineering to create excellent products and services that are
-          both functional and aesthetic.
+          convert dreams to reality. I&apos;m on a mission to equip myself with the knowledge and
+          skills needed to bring my creative visions to life, solve important real-world problems,
+          and make meaningful contributions to my community. I&apos;m driven by relentless curiosity
+          and desire to understand our world, and by my passion for design, problem-solving, and
+          building. I enjoy combining art, science, and engineering to create excellent products and
+          services that are both functional and aesthetic.
         </p>
       </div>
 

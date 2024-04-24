@@ -20,14 +20,14 @@ export default function Toolmax() {
         </p>
 
         <p>
-          (However, this prototype is by no means intended for production; it's one of many
+          (However, this prototype is by no means intended for production; it&apos;s one of many
           milestone and serves as a technical demonstration.)
         </p>
       </Card>
 
       <video loop className="rounded-xl" autoPlay muted src="/first.jorahty.com.mov"></video>
 
-      <p>Toolmax is a long-standing project — I've been working on it since 2018.</p>
+      <p>Toolmax is a long-standing project — I&apos;ve been working on it since 2018.</p>
 
       <p>
         Toolmax is an <b>online multiplayer game</b> with 3 important properties:
@@ -41,15 +41,15 @@ export default function Toolmax() {
 
       <p>
         Games that have all properties listed above are rare. The few that exist are created by
-        massive game companies. I'm personally unsatisfied with the current narrow selection of such
-        games, which is why I hope to contribute by making one of my own.
+        massive game companies. I&apos;m personally unsatisfied with the current narrow selection of
+        such games, which is why I hope to contribute by making one of my own.
       </p>
 
       <p>
         A multiplayer game with all properties listed above requires sophisticated server
         infrastructure (dedicated servers, matchmaking) among other things, and are therefore not
-        typically within reach of independent game developers. However, I've aimed to understand the
-        technology needed for such a game, and have made tremendous progress so far.
+        typically within reach of independent game developers. However, I&apos;ve aimed to
+        understand the technology needed for such a game, and have made tremendous progress so far.
       </p>
 
       <p>Toolmax has seen several iterations over the years.</p>
@@ -73,14 +73,14 @@ export default function Toolmax() {
       </ul>
 
       <p>
-        I've refrained from adding creative/stylistic elements (illustration, sound) to this
+        I&apos;ve refrained from adding creative/stylistic elements (illustration, sound) to this
         prototype because it lacks proper user authentication and scalable matchmaking (neither of
-        which are insurmountable challenge; it's merely a question of time.)
+        which are insurmountable challenge; it&apos;s merely a question of time.)
       </p>
 
       <p>
-        This prototype's cross-platform client is built with Flutter and runs seamlessly on Web,
-        iOS, and Android. Consequently, the client handles both touchscreen controls as well as
+        This prototype&apos;s cross-platform client is built with Flutter and runs seamlessly on
+        Web, iOS, and Android. Consequently, the client handles both touchscreen controls as well as
         mouse and keyboard.
       </p>
 
@@ -97,11 +97,11 @@ export default function Toolmax() {
       </p>
 
       <p>
-        I'm excited to leverage Flutter's powerful animation engine when it comes time to add
-        animation.
+        I&apos;m excited to leverage Flutter&apos;s powerful animation engine when it comes time to
+        add animation.
       </p>
 
-      <p>Here's an older prototype that showcases animation and illustration:</p>
+      <p>Here&apos;s an older prototype that showcases animation and illustration:</p>
 
       <div className="flex justify-center">
         <video loop className="rounded-xl max-w-xs" autoPlay muted src="/og_toolmax.mov"></video>

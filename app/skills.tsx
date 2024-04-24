@@ -29,7 +29,7 @@ export function Skills() {
               <TableCell className="font-semibold">{skill.name}</TableCell>
               <TableCell>
                 {skill.evidence.map(([txt, url], index) => (
-                  <span className="text-xs text-muted-foreground">
+                  <span className="text-xs text-muted-foreground" key={index}>
                     <a className={`underline-offset-2 ${url && 'underline'}`} href={url}>
                       {txt}
                     </a>
